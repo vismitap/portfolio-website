@@ -1,0 +1,213 @@
+ /* elements */
+*{
+   box-sizing: border-box;
+}
+
+
+
+
+body{
+   margin: 0px;
+   padding: 0px;
+   width: fit-content;
+   height: 100%;
+   overflow-x: hidden;
+   overflow-y: scroll;
+   
+
+}
+
+
+img{
+   max-width: 100%;
+   height: auto;
+}
+
+p{
+
+   font-family: monospace;
+   margin-left: 10px;
+}
+
+h1{
+   position: relative;
+   letter-spacing: 5px;
+   overflow: hidden;
+   animation: typing 5s steps(100,end), blink .75s  step-end infinite;
+   animation-fill-mode: forwards;
+   animation-iteration-count: infinite;
+   border-right: 4px solid white;
+   white-space: nowrap;
+   width: fit-content;
+   margin-left: 10px;
+   
+   
+   
+   
+   }
+   
+   h3{
+      animation-delay: 6s;
+      margin-left: 10px;
+      position: relative;
+      letter-spacing: 5px;
+      animation: appear 10s 1;
+        white-space: nowrap;
+      width: fit-content;
+      
+   }
+
+   a{
+      text-decoration-line: none;
+      color: rgb(245, 107, 183);
+   }
+   a:hover{
+      color: aqua;
+      transform: scale(1.2);
+   }
+   a:hover #cont{
+    transform: scale(1.2);
+   }
+   
+/* div-id */
+
+
+
+#content{
+background-image: url('img/mr.robot.jpg');
+
+background-size: 1800px 800px ;
+padding: 20px;
+background-repeat: no-repeat;
+height: 760px;
+font-size: 30px;
+font-family: monospace;
+}
+
+#static-content{
+   font-size: 30px;
+   left: 0px;
+   color: white;
+   background-color:black;
+   width:100%;
+   height: fit-content;
+   padding: 20px;
+   
+}
+
+#mask{
+   clear: both;
+}
+
+
+
+#text{
+   text-align:left;
+   color: white;
+   
+}
+
+#m-text{
+   z-index: 1;
+   margin-left: 400px;
+   color: antiquewhite;
+}
+ #contact{
+    margin-left: 20px;
+    clear: both;
+    text-align: left;
+    float: left;
+    
+    
+ }
+
+#cont{
+   
+   
+   height: 70px; 
+   width: 70px;
+   display: inline-block; 
+   padding-left: 10px;
+}
+
+
+
+#about{
+   margin-top: 60px; 
+   padding-bottom: 50px;
+   text-align: left;
+   height: fit-content;
+   margin-left: 10px;
+
+   
+}
+
+#skills-bar{
+     
+   height: fit-content;
+  
+}
+
+#skills{
+   height: 150px;
+   width: 150px;
+   float: left;
+   padding: 15px;
+   margin-left: 10px;
+   
+}
+#Participated{
+
+   clear: both;
+   text-align: left;
+   padding:20px ;
+   
+   
+}
+
+
+#copyright{
+   text-align: center;
+   color: white;
+}
+
+/* keyframes */
+@keyframes typing{
+   0% { 
+      max-width: 0% ;
+      }
+  100%{ 
+      max-width: 100%;
+      }
+      
+}
+@keyframes blink{
+   0%{
+      border-color: white;
+   }
+   100%{
+      border-color: transparent;
+   }
+}
+@keyframes appear{
+   0%{
+      animation-delay: 6s;
+      color: transparent
+   }
+   100%{
+      color: white;
+   }
+}
+
+#motivation{
+   clear: both;
+   color:rgb(184, 241, 119); 
+   text-align: left;
+   margin-left: 400px;
+   
+
+}
+
+   
+
+

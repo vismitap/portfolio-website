@@ -165,11 +165,13 @@
 
 /* MAX-WIDTH = 400PX */
  
- @media screen and (max-width:400px){
+ @media screen and (max-width:480px){
     #content{
-      background-size: 600px 400px;
+      padding-top: 100px;
+      background-size: 400px 400px;
       height: 400px;
-    }
+    
+   }
     h1{
        letter-spacing: 0px;
        font-size: 14px;
@@ -222,7 +224,8 @@
  
  @media screen and (max-width:330px){
     #content{
-      background-size: 550px 400px;
+      padding-top: 100px;
+      background-size: 400px 400px;
       height: 400px;
     }
     h1{
@@ -273,12 +276,12 @@
 
  }
  
- /* MIN-WIDTH = 250px */
+ /* MIN-WIDTH = 330px */
  @media screen and (max-width:330px){
    #content{
       padding-top: 100px;
      background-size: 400px 400px;
-     height: 300px;
+     height: 400px;
    }
    h1{
       letter-spacing: 0px;

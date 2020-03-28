@@ -168,7 +168,7 @@
  @media screen and (max-width:480px){
     #content{
       padding-top: 100px;
-      background-size: 500px 400px;
+      background-size: 550px 400px;
       height: 400px;
     
    }
@@ -220,12 +220,12 @@
  
   
 
-/* MAX-WIDTH = 300PX */
+/* MAX-WIDTH = 330PX */
  
  @media screen and (max-width:330px){
     #content{
       padding-top: 100px;
-      background-size: 500px 400px;
+      background-size: 550px 400px;
       height: 400px;
     }
     h1{
@@ -276,62 +276,6 @@
 
  }
  
- /* MIN-WIDTH = 330px */
- @media screen and (max-width:330px){
-   #content{
-      padding-top: 100px;
-     background-size: 500px 400px;
-     height: 400px;
-   }
-   h1{
-      letter-spacing: 0px;
-      font-size: 14px;
-      color:yellow;
-      
-   }
-  h3{
-     letter-spacing: 0px;
-     font-size: 14px;
-     color: yellow;
-    
-   } 
-   p{
-      font-size:14px ;
-     
-   }
-   
-   
-   #skills{
-      height: 60px;
-      width: 60px;
-      padding: 5px;
-   
-      
-   }
-   #skills-bar{
-      margin-left: 14px;
-   }
-   
-   a{
-      font-size: 14px;
-   }
-   #motivation{
-      margin-left: 10px;
-     
-   }
-
-   #m-text{
-     margin-left: 10px;
-  }
-  
-  #mask{
-     display: none;
-  }
-  #cont{
-     height: 40px;
-     width: 40px;
-     padding: 5px;
-  }
 
   
   }

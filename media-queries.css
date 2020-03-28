@@ -276,19 +276,20 @@
  /* MIN-WIDTH = 250px */
  @media screen and (max-width:330px){
    #content{
-     background-size: 550px 400px;
-     height: 400px;
+      padding-top: 100px;
+     background-size: 400px 400px;
+     height: 300px;
    }
    h1{
       letter-spacing: 0px;
       font-size: 14px;
-      color:white;
+      color:yellow;
       
    }
   h3{
      letter-spacing: 0px;
      font-size: 14px;
-     color: white;
+     color: yellow;
     
    } 
    p{
@@ -329,6 +330,7 @@
      padding: 5px;
   }
 
+  
   }
 
 

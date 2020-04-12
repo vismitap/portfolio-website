@@ -124,10 +124,10 @@ font-family: monospace;
 #cont{
    
    
-   height: 70px; 
-   width: 70px;
+   height: 90px; 
+   width: 90px;
    display: inline-block; 
-   padding-left: 10px;
+   padding-left: 20px;
 }
 
 

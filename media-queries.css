@@ -112,6 +112,12 @@
          width: 60px;
          padding: 10px;
       }
+
+      #c{
+         margin-left: 10px;
+         height: 200px;
+         width: 300px;
+      }
      
 
     
@@ -160,6 +166,14 @@
          padding: 10px;
       }
      
+      #c{
+         margin-left: 10px;
+         height: 200px;
+         width: 300px;
+
+      }
+     
+
     
  }
   
@@ -216,6 +230,14 @@
       padding: 10px;
    }
   
+   #c{
+      margin-left: 10px;
+      height: 200px;
+      width: 300px;
+
+   }
+  
+
   
  }
  
@@ -274,6 +296,14 @@
       width: 60px;
       padding: 10px;
    }
+
+  #c{
+     margin-left: 10px;
+     height:200 ;
+     width: 200;
+
+   }
+
    
 
   }

@@ -60,22 +60,20 @@ h1{
    a{
       text-decoration-line: none;
       color: rgb(245, 107, 183);
+      
    }
    a:hover{
       color: aqua;
+      cursor: pointer;
       transform: scale(1.2);
-   }
-   a:hover #cont{
-    transform: scale(1.2);
+      
    }
    
-/* div-id */
-
+  /* div-id */
 
 
 #content{
 background-image: url('img/mr.robot.jpg');
-
 background-size: 1800px 800px ;
 padding: 20px;
 background-repeat: no-repeat;
@@ -95,10 +93,25 @@ font-family: monospace;
    
 }
 
+#certi{
+   margin-left: 20px;
+}
+
+
+#c{
+  height: 600px;
+  width: 900px;
+  background-color: white;
+ overflow-y: scroll;
+ align-items: center;
+
+
+}
+
+
 #mask{
    clear: both;
 }
-
 
 
 #text{
@@ -163,6 +176,7 @@ font-family: monospace;
    
    
 }
+
 
 
 #copyright{

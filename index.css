@@ -4,7 +4,9 @@
 }
 
 
-
+html{
+   scroll-behavior: smooth;
+}
 
 body{
    margin: 0px;
@@ -102,9 +104,9 @@ font-family: monospace;
   height: 600px;
   width: 900px;
   background-color: white;
- overflow-y: scroll;
- align-items: center;
-
+  overflow-y: scroll;
+  align-items: center;
+  scroll-behavior: smooth;
 
 }
 
